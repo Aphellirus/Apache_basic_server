@@ -1,9 +1,7 @@
 # Apache_basic_server
-Setting up a basic web server with Apache
 
-Just a simple project for setting up a web server using Apache:
+Just a simple project for setting up a basic web server using Apache:
 
-## Installing Apache
 
 1. Installing Apache
 
