@@ -17,7 +17,7 @@ The first step is to Install Apache on your server using your operating system's
 
 Create a HTML file that will be served by the web server. For example, create a file called index.html in the Apache document root directory /var/www/html with the following content:
 
-- `<!DOCTYPE html>
+`<!DOCTYPE html>
 <html>
 <head>
 	<title>My Web Server</title>
