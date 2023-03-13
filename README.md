@@ -3,7 +3,7 @@
 Just a simple project for setting up a basic web server using Apache:
 
 
-1. Installing Apache
+## 1. Installing Apache
 
 The first step is to Install Apache on your server using your operating system's package manager. For example, on Ubuntu, you can use the following command:
 
@@ -11,20 +11,20 @@ The first step is to Install Apache on your server using your operating system's
 
 - `sudo apt-get install apache2`
 
-2. Create a Web Page
+## 2. Create a Web Page
 
 Create a HTML file that will be served by the web server. For example, create a file called index.html in the Apache document root directory /var/www/html with [this content](https://github.com/Aphellirus/Apache_basic_server/blob/main/index.html) 
 
-3. Start the Apache service
+## 3. Start the Apache service
 
 Start the Apache service using the following command:
 - `sudo systemctl start apache2`
 
-4. Configure Apache
+## 4. Configure Apache
 
 By default, Apache should be configured to serve files from the /var/www/html directory. If you need to change the document root directory, you can do so in the Apache configuration file located at /etc/apache2/apache2.conf.
 
-5. Test the web server
+## 5. Test the web server
 
 Open a web browser and navigate to the IP address of your server. You should see the "Welcome to my web server!" message from your index.html file.
 
