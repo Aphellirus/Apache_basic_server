@@ -22,28 +22,14 @@ Create a HTML file that will be served by the web server. For example, create a 
 Start the Apache service using the following command:
 - `sudo systemctl start apache2`
 
-Replace the above lines of code with your actual IAM user values.
+4. Configure Apache
+
+By default, Apache should be configured to serve files from the /var/www/html directory. If you need to change the document root directory, you can do so in the Apache configuration file located at /etc/apache2/apache2.conf.
+
+5. Test the web server
+
+Open a web browser and navigate to the IP address of your server. You should see the "Welcome to my web server!" message from your index.html file.
 
 ## Results
 
-After running the Terraform script, you'll have:
-
-1. An EC2 instance of Ubuntu in your AWS account.
-
-## How to use this project
-
-1. Launch Terraform in the directory where the script is located:
-
-`$ terraform init`
-
-2. create the infrastructure:
-
-`$ terraform apply`
-
-Type yes and hit ENTER when a command prompt appears.
-
-3. To destroy the created infrastructure, enter the command:
-
-`$ terraform destroy`
-
-Type yes and hit ENTER when a command prompt appears.
+You now have a basic web server up and running using Apache. From here, you can customize the Apache configuration to suit your needs, add additional web pages and applications, and implement security best practices to protect your web server.
