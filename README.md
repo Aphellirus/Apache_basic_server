@@ -1,14 +1,17 @@
 # Apache_basic_server
 Setting up a basic web server with Apache
 
-# EC2-Instance-with-Terraform
-Provisioning an EC2 instance with Terraform
+Just a simple project for setting up a web server using Apache:
 
-Just a simple project for creating an AWS EC2 instance with Terraform
+## Installing Apache
 
-## Preparing the automation
+1. [Installing Apache]
 
-1. [Install the AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html)
+The first step is to Install Apache on your server using your operating system's package manager. For example, on Ubuntu, you can use the following command:
+
+- `$ export AWS_ACCESS_KEY_ID=<YOUR_KEY_ACCESS_ID_FROM_AWS>`
+
+- `$ export AWS_SECRET_ACCESS_KEY=<YOUR_SECRET_ACCESS_KEY_FROM_AWS>`
 
 2. [Create an IAM user for your AWS account](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/id_users_create.html)
 
