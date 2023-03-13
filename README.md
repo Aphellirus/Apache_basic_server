@@ -17,11 +17,10 @@ The first step is to Install Apache on your server using your operating system's
 
 Create a HTML file that will be served by the web server. For example, create a file called index.html in the Apache document root directory /var/www/html with [this content](https://github.com/Aphellirus/Apache_basic_server/blob/main/index.html) 
 
-3. Configure the following environment variables in your terminal:
+3. Start the Apache service
 
-- `$ export AWS_ACCESS_KEY_ID=<YOUR_KEY_ACCESS_ID_FROM_AWS>`
-
-- `$ export AWS_SECRET_ACCESS_KEY=<YOUR_SECRET_ACCESS_KEY_FROM_AWS>`
+Start the Apache service using the following command:
+- `sudo systemctl start apache2`
 
 Replace the above lines of code with your actual IAM user values.
 
