@@ -5,13 +5,13 @@ Just a simple project for setting up a web server using Apache:
 
 ## Installing Apache
 
-1. [Installing Apache]
+1. Installing Apache
 
 The first step is to Install Apache on your server using your operating system's package manager. For example, on Ubuntu, you can use the following command:
 
-- `$ export AWS_ACCESS_KEY_ID=<YOUR_KEY_ACCESS_ID_FROM_AWS>`
+- `$ sudo apt-get update`
 
-- `$ export AWS_SECRET_ACCESS_KEY=<YOUR_SECRET_ACCESS_KEY_FROM_AWS>`
+- `sudo apt-get install apache2`
 
 2. [Create an IAM user for your AWS account](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/id_users_create.html)
 
