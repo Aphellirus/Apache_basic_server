@@ -17,17 +17,6 @@ The first step is to Install Apache on your server using your operating system's
 
 Create a HTML file that will be served by the web server. For example, create a file called index.html in the Apache document root directory /var/www/html with the following content:
 
-`<!DOCTYPE html>
-<html>
-<head>
-	<title>My Web Server</title>
-</head>
-<body>
-	<h1>Welcome to my web server!</h1>
-</body>
-</html>
-`
-
 3. Configure the following environment variables in your terminal:
 
 - `$ export AWS_ACCESS_KEY_ID=<YOUR_KEY_ACCESS_ID_FROM_AWS>`
